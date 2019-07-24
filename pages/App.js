@@ -75,7 +75,7 @@ class App extends React.Component {
   }
   componentWillMount(){
     console.log(123456);
-    fetch(`http://192.168.249.199:8888/cgi-bin/InClass.py`, {
+    fetch(`http://192.168.0.150:8888/cgi-bin/InClass.py`, {
       method: 'POST',
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
